@@ -1,0 +1,9 @@
+IMAGE_ROOT_DIR = "uavid_v1.5_official_release_image_bw/uavid_train/"
+MASK_ROOT_DIR = "uavid_v1.5_official_release_image_bw/uavid_train/"
+OUTPUT_DIR = "PaperPictures/"
+DIST_THRESHOLD = 50
+EPOCHS = 50
+BATCH_SIZE = 8
+LEARNING_RATE = 0.001
+DEVICE = "cuda"  # or "cpu"
+SRGAN_WEIGHTS = "srgan.pth"
